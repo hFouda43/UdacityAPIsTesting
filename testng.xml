@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<listeners>
+    <listener class-name="testComponents.Listeners"></listener>
+</listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/hendf/OneDrive/Documents/FWD/UdacityTrelloAPIs/src">
+        <classes>
+            <class name="org.udacityTrello.Tests.EndToEndTests">
+                <methods>
+                    <include name="createOrganizationTest"/>
+                    <include name="setGetMemberOrgsTest"/>
+                    <include name="createBoardTest"/>
+                    <include name="getBoardsPerOrgTest"/>
+                    <include name="createListTest"/>
+                    <include name="setGetListsPerBoardTest"/>
+                    <include name="archiveListTest"/>
+                    <include name="deleteBoardTest"/>
+                    <include name="deleteOrganizationTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
