@@ -51,7 +51,6 @@ public class EndToEndTests {
     //Delete the organization
     Response deleteOrganizationResponse= DeleteOrganizationRequest.deleteOrganizationResponse(org_ID);
 
-
     @Test
     public void createOrganizationTest(){
         //Validate the status code
